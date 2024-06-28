@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning Data Analytics and then furthur explore Data Science
 - 💞️ I’m looking to collaborate on Data Analytics Projects
 - 📫 How to reach me noman.pnec1461@gmail.com
-- 😄 Pronouns: ...
+- 😄 Pronouns: He/Him
 - ⚡ Fun fact: I am transitioning from Electrical Engineering.
 
 <!---
