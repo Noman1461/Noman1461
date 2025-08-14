@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Noman</h1>
 <h3 align="center">I'm an aspiring Machine Learning passionate about exploring the fields of Natural Language Processing (NLP) and Deep Learning.</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=noman1461&label=Profile%20views&color=0e75b6&style=flat" alt="noman1461" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=noman1461&label=Stalkers&color=0e75b6&style=flat" alt="noman1461" /> </p>
 
 - 🔭 I’m currently working on **English-to-Urdu-Machine-Translation-Using Seq2Seq-Model**
 
