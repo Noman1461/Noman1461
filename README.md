@@ -1,16 +1,16 @@
 # Hi 👋, I'm Noman
 
-**AI Automation Engineer @ Zyne Ventures** | Building production-grade data pipelines
+**Data Engineer Contributor @ Omdena** | Building reliable data pipelines and automation systems
 
 ---
 
 ## 🚀 About Me
 
-Electrical engineer transitioning into **Data Engineering** with hands-on experience building ETL pipelines, RESTful APIs, and automation workflows. Currently working as an AI Automation Engineer at Zyne Ventures, where I design Flask APIs and n8n workflows for payment processing automation.
+Electrical engineer transitioning into **Data Engineering** with hands-on experience building ETL pipelines, RESTful APIs, geospatial workflows, and automation systems. I’m currently working as a Data Engineer Contributor at Omdena, where I contribute to ingestion pipelines for weather, geospatial, and Earth observation data and help improve data quality and delivery workflows.
 
-- 🔭 **Currently working on:** Production-grade ETL pipelines with Python & PostgreSQL
+- 🔭 **Currently working on:** Production-grade ETL pipelines with Python, PostgreSQL, and cloud delivery
 - 🌱 **Learning:** Docker | Azure AZ-900 (cloud fundamentals) | Modern data stack
-- 👯 **Looking for:** Entry-level Data Engineer roles to scale my impact
+- 👯 **Looking for:** Entry-level Data Engineer roles to build scalable data systems
 - ⚡ **My motto:** *"Slowly but surely"* — I believe in consistent learning and building
 
 **[View My Resume](https://github.com/Noman1461/Noman1461/blob/main/Noman_Ajmal_Resume.pdf)** • **[Connect on LinkedIn](https://www.linkedin.com/in/nomanajmal/)**
@@ -32,9 +32,9 @@ Electrical engineer transitioning into **Data Engineering** with hands-on experi
 
 | Layer | Implementation |
 |------|------|
-| **Extract** | Efficient ingestion of 7,000+ raw transaction records from CSV (designed to scale to 100k+ rows) |
+| **Extract** | Efficient ingestion of 7,000+ raw transaction records from CSV |
 | **Validation** | 6+ data quality checks including ID validation, price/quantity verification, and date parsing |
-| **Transform** | Business logic applied (spending category classification, high-value order detection) |
+| **Transform** | Business logic applied for spending category classification and high-value order detection |
 | **Load** | Idempotent loading into PostgreSQL using `ON CONFLICT` upsert strategy |
 | **Observability** | Automated error logging and JSON-based quality reports for debugging and monitoring |
 | **Engineering Practices** | Modular pipeline architecture (`extract.py`, `transform.py`, `load.py`) with clean separation of concerns |
@@ -47,15 +47,14 @@ Electrical engineer transitioning into **Data Engineering** with hands-on experi
 
 | Metric | Value |
 |------|------|
-| Total Records Processed | 5,410 |
-| Valid Records Loaded | 5,410 |
+| Total Records Processed | 7,139 |
+| Valid Records Loaded | 84% data pass rate |
 | Data Quality Checks | 6+ |
-| Spending Categories Generated | Low / Medium / High |
+| Output | Rejected row logging + JSON quality reports |
 
 ---
 
-🔗 **[View Full Project Repository](https://github.com/Noman1461/DE-projects/tree/main/etl_project)**
-
+🔗 **[View Full Project Repository](https://github.com/Noman1461/DE-projects/tree/main/etlproject)**
 
 ---
 
@@ -64,19 +63,35 @@ Electrical engineer transitioning into **Data Engineering** with hands-on experi
 | Project | Status | Description |
 |---------|--------|-------------|
 | **CafeFlow ETL** | ✅ Complete | Python-based ETL with validation & monitoring |
+| **Omdena Geospatial ETL Work** | ✅ Active | Ingestion and transformation pipelines for weather and Earth observation data |
 | **API to Database Pipeline** | ⏳ In progress | FastAPI service with automated data ingestion |
 | **Azure Mini Data Pipeline** | 📅 Planned | Cloud-based ETL using Azure services |
 
 ---
 
+## 💼 Experience Snapshot
+
+### Omdena — Data Engineer Contributor
+- Designed and developed scalable ingestion pipelines for weather, geospatial, and Earth observation datasets.
+- Helped modernize the Sentinel-2 pipeline by migrating processing logic to Google Earth Engine.
+- Built Python-based ETL workflows for collection, validation, feature engineering, and cloud delivery to Amazon S3.
+- Collaborated with data scientists and ML engineers to improve data contracts, quality, and downstream workflow readiness.
+
+### Zyne Ventures — AI Automation Engineer
+- Designed and deployed Flask RESTful APIs for job posting workflows.
+- Built automation pipelines for payment confirmation processing.
+- Reduced manual effort by improving data processing and workflow automation.
+
+---
+
 ## 💻 Technical Skills
 
-- Languages: Python, SQL
-- Frameworks: Flask, PyTorch (basics)
-- Databases: PostgreSQL, MySQL
-- Tools: Docker, Git, n8n, Power BI
-- Learning: Azure AZ-900, Cloud data engineering
-
+- **Languages:** Python, SQL
+- **Data Engineering:** ETL/ELT, data quality checks, pipeline orchestration, geospatial workflows
+- **Frameworks:** Flask, PyTorch (basics)
+- **Databases:** PostgreSQL, MySQL
+- **Tools:** Docker, Git, n8n, Power BI
+- **Cloud / Learning:** Azure AZ-900, AWS S3, cloud data engineering
 
 ---
 
