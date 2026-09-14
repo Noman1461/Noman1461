@@ -6,12 +6,11 @@
 
 ## 🚀 About Me
 
-Electrical engineer transitioning into **Data Engineering** with hands-on experience building ETL pipelines, RESTful APIs, geospatial workflows, and automation systems. I’m currently working as a Data Engineer Contributor at Omdena, where I contribute to ingestion pipelines for weather, geospatial, and Earth observation data and help improve data quality and delivery workflows.
+Electrical engineer transitioning into **Data Engineering and AI/ML Engineering**, with hands-on experience building ETL pipelines, AI-powered applications, RESTful APIs, geospatial workflows, and automation systems. I’m currently working as a Data Engineer Contributor at Omdena, contributing to data ingestion pipelines and AI-driven agricultural projects, while continuing to build expertise across data engineering, machine learning, and Generative AI.
 
-- 🔭 **Currently working on:** Production-grade ETL pipelines with Python, PostgreSQL, and cloud delivery
-- 🌱 **Learning:** Docker | Azure AZ-900 (cloud fundamentals) | Modern data stack
-- 👯 **Looking for:** Entry-level Data Engineer roles to build scalable data systems
-- ⚡ **My motto:** *"Slowly but surely"* — I believe in consistent learning and building
+- 🔭 **Currently working on:** Production-grade data and AI workflows using Python, PostgreSQL, Apache Airflow, and cloud technologies
+- 🌱 **Learning:** **Microsoft Fabric (DP-700)** | Docker | Azure Cloud Fundamentals | Modern Data & AI Stack
+- 👯 **Looking for:** Opportunities in **Data Engineering, AI/ML Engineering, Data Science, and AI Engineering**
 
 **[View My Resume](https://github.com/Noman1461/Noman1461/blob/main/Noman_Ajmal_Resume.pdf)** • **[Connect on LinkedIn](https://www.linkedin.com/in/nomanajmal/)**
 
@@ -63,9 +62,9 @@ Electrical engineer transitioning into **Data Engineering** with hands-on experi
 | Project | Status | Description |
 |---------|--------|-------------|
 | **CafeFlow ETL** | ✅ Complete | Python-based ETL with validation & monitoring |
-| **Omdena Geospatial ETL Work** | ✅ Active | Ingestion and transformation pipelines for weather and Earth observation data |
-| **API to Database Pipeline** | ⏳ In progress | FastAPI service with automated data ingestion |
-| **Azure Mini Data Pipeline** | 📅 Planned | Cloud-based ETL using Azure services |
+| **Consumer Complaint Analytics** | ✅ Complete | Airflow-orchestrated ETL pipeline with Docker and automated reporting |
+| **Omdena Geospatial & Weather Pipelines** | ✅ Complete  | Data ingestion and processing workflows for agricultural AI applications |
+| **RAG & AI Agent System** | ✅ Complete | LLM-powered RAG system with FAISS, HuggingFace embeddings, and ReAct agents |
 
 ---
 
@@ -77,25 +76,37 @@ Electrical engineer transitioning into **Data Engineering** with hands-on experi
 - Built Python-based ETL workflows for collection, validation, feature engineering, and cloud delivery to Amazon S3.
 - Collaborated with data scientists and ML engineers to improve data contracts, quality, and downstream workflow readiness.
 
-### Zyne Ventures — AI Automation Engineer
-- Designed and deployed Flask RESTful APIs for job posting workflows.
-- Built automation pipelines for payment confirmation processing.
-- Reduced manual effort by improving data processing and workflow automation.
+### Zyne Ventures — Data Scientist
+- Designed and built a Retrieval-Augmented Generation (RAG) system using FAISS and HuggingFace embeddings to ground LLM responses in a local knowledge base.
+- Implemented a **ReAct AI agent** using Python and LangChain with autonomous tool selection and context retrieval, powered by Llama-3.1-70B.
+- Developed persistent agent memory to maintain state across runs and improve workflow reliability.
+- Built AI automation and REST API workflows to integrate intelligent solutions into business processes.
 
 ---
 
 ## 💻 Technical Skills
 
 - **Languages:** Python, SQL
-- **Data Engineering:** ETL/ELT, data quality checks, pipeline orchestration, geospatial workflows
-- **Frameworks:** Flask, PyTorch (basics)
+- **AI/ML:** Machine Learning, Deep Learning, NLP, Generative AI, LLMs, RAG, AI Agents, Feature Engineering
+- **AI Frameworks:** PyTorch, Scikit-Learn, LangChain, HuggingFace
+- **Data Engineering:** ETL/ELT, Data Quality, Airflow, Data Processing, Geospatial Workflows
 - **Databases:** PostgreSQL, MySQL
-- **Tools:** Docker, Git, n8n, Power BI
-- **Cloud / Learning:** Azure AZ-900, AWS S3, cloud data engineering
+- **API & Tools:** FastAPI, Flask, REST APIs, Docker, Git, n8n
+- **Cloud / Learning:** AWS S3, Microsoft Fabric, Azure
 
 ---
 
 ## 📂 Other Projects
+
+**Consumer Complaint Analytics: Automated ETL Pipeline**
+- End-to-end **Apache Airflow ETL pipeline** extracting 22,714+ records from a public regulatory API and loading them into MySQL
+- Implemented data transformation, Airflow XCom, FileSensor, automated Google Sheets publishing, and email notifications
+- Containerized the workflow using **Docker** for reproducible pipeline execution
+
+**Corporate Credit Risk Data Warehouse**
+- Designed an enterprise-style **PostgreSQL Data Warehouse** using a Kimball dimensional model with 8 dimensions and 5 fact tables
+- Built metadata-driven **ETL and Data Quality frameworks** with validation rules, execution logging, and failed-rule reporting
+- Developed analytical SQL queries and a **Power BI dashboard** for credit exposure, delinquency, recovery, and Early Warning Indicator analysis
 
 **IntelliNews: Automated News Classification**
 - Flask-based web app using TF-IDF and logistic regression
@@ -121,5 +132,5 @@ Electrical engineer transitioning into **Data Engineering** with hands-on experi
 ---
 
 <p align="center">
-  <i>Open to entry-level Data Engineer opportunities — let's build reliable data systems together!</i>
+  <i>Open to entry-level AI/ML, Data Science, Data Engineer opportunities.</i>
 </p>
